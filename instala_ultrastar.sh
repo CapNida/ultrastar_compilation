@@ -53,7 +53,7 @@ case $OPCION in
       echo -e "${AZUL}----------------------${NEGRO}"
       echo -e "${AZUL}Instalando dependencia${NEGRO}"
       echo -e "${AZUL}----------------------${NEGRO}"
-      PAQUETES="automake libpng12-0 libpng12-dev libsdl2-dev libsdl2-2.0-0 libsdl2-gfx-1.0-0 libsdl2-gfx-dev libsdl2-image-2.0-0 libsdl2-image-dev libsdl2-mixer-2.0-0 libsdl2-mixer-dev libsdl2-net-2.0-0 libsdl2-net-dev libsdl2-ttf-2.0-0 libsdl2-ttf-dev portaudio19-dev liblua5.1-0 liblua5.1-0-dev libsqlite3-0 libsqlite3-dev git fpc fpc-source fpc-2.6.4 fpc-source-2.6.4 libass-dev libmp3lame-dev libopus-dev libtheora-dev libx264-dev libbz2-dev build-essential libvpx-dev"
+      PAQUETES="automake libpng12-0 libpng12-dev libsdl2-dev libsdl2-2.0-0 libsdl2-gfx-1.0-0 libsdl2-gfx-dev libsdl2-image-2.0-0 libsdl2-image-dev libsdl2-mixer-2.0-0 libsdl2-mixer-dev libsdl2-net-2.0-0 libsdl2-net-dev libsdl2-ttf-2.0-0 libsdl2-ttf-dev portaudio19-dev liblua5.1-0 liblua5.1-0-dev libsqlite3-0 libsqlite3-dev git fpc fpc-source fpc-2.6.4 fpc-source-2.6.4 libass-dev libmp3lame-dev libopus-dev libtheora-dev libx264-dev libbz2-dev build-essential libvpx-dev libavcodec-dev libavformat-dev libavutil-dev libswresample-dev libswscale-dev"
       for PAQUETE in $PAQUETES
       do
         sudo apt-get -y install $PAQUETE
